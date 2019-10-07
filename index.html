@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="https://png.pngtree.com/svg/20160106/edit_206169.png" type="image/x-icon" />
+  <title>"Notes" - просто блокнотик с заметками</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <script src="js/script.js" async></script>
+</head>
+
+<body>
+  <div class="notes">
+    <div class="notes-title">
+      <h1 class="title__text">Первый блокнот</h1>
+    </div>
+    <div class="notes-input">
+      <textarea id="text" class="notes-input__text" placeholder="Пиши заметку..." rows="8"></textarea>
+    </div>
+    <div class="notes-list">
+      <ul id="list" class="notes-list__item"></ul>
+    </div>
+    <div class="notes-button">
+      <button id="butt" class="notes-button__item green">Сохранить</button>
+      <button id="butt" class="notes-button__item red" onclick="removeElement()">Удалить</button>
+    </div>
+  </div>
+</body>
+
+</html>
