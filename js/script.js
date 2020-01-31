@@ -14,9 +14,9 @@ butt.addEventListener("click", function() {
     text.value = " ";
   } else {
     let date = new Date();
-    let now = "Тут твоя заметка"
+    let now = text.value;
     notes[now] = text.value;
-    text.value = " ";
+    text.value = "";
 
     let li = document.createElement("li");
     li.classList.add('notes-list__link');

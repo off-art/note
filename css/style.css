@@ -23,6 +23,8 @@ body {
 .notes-list__link {
   list-style: none;
   width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
   padding: 0 20px;
   margin-bottom: 10px;
   background: #E9EFF6;
